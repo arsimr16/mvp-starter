@@ -1,4 +1,5 @@
 import React from 'react';
+import $ from 'jquery';
 
 class Topic extends React.Component {
 	constructor(props) {
@@ -8,7 +9,7 @@ class Topic extends React.Component {
 
 	getAnswer() {
 		$.ajax({
-			url: props.url,
+			url: this.props.url,
 			method: 'GET',
 			contentType: 'application/json',
 			success: (data) => {
@@ -25,9 +26,9 @@ class Topic extends React.Component {
 
 	render() {
 		return (
-      <button type="button" onClick="this.getAnswer">Help!</button>
-      <div>
-        {props.children}
+			<div>
+			  <p>{this.props.children}</p>
+        <button type="button" onClick={this.getAnswer}>Help!</button>
       </div>
 		)
 	}

@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import $ from 'jquery';
-//import List from './components/List.jsx';
 import Topic from './components/Topic.jsx';
+import Result from './components/Result.jsx';
 
 class App extends React.Component {
   constructor(props) {
@@ -39,7 +39,5 @@ class App extends React.Component {
     )
   }
 }
-
-// <List items={this.state.items}/>
 
 ReactDOM.render(<App />, document.getElementById('app'));
