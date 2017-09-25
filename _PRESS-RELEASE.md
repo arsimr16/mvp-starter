@@ -16,29 +16,32 @@ Oh, and I also like to write press-releases in what I call "Oprah-speak" for mai
 Once the project moves into development, the press release can be used as a touchstone; a guiding light. The product team can ask themselves, "Are we building what is in the press release?" If they find they're spending time building things that aren't in the press release (overbuilding), they need to ask themselves why. This keeps product development focused on achieving the customer benefits and not building extraneous stuff that takes longer to build, takes resources to maintain, and doesn't provide real customer benefit (at least not enough to warrant inclusion in the press release).
  -->
  
-## Heading ##
-  > Name the product in a way the reader (i.e. your target customers) will understand.
+# ConversationStarters.com
+### A helpful web app for when things get awkward.
 
-## Sub-Heading ##
-  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+## Overview
+* Whether you are trying to keep the conversation going on a date, or just trying to entertain yourself on a long roadtrip, long periods of silence can be awkward.  Sometimes uncomfortable topics come up and you need a way to change the subject quickly.  Now you can easily generate random conversation starters with the click of a button.
 
-## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+## The Problem
+* For some people conversation comes naturally, but for the rest of us it can be more challenging.  
+* Long periods of silence can be very awkward.
+* Sometimes conversations become uncomfortable and you need to change the subject.
 
-## Problem ##
-  > Describe the problem your product solves.
+## Our Solution
+* With conversationstarters.com you can generate conversation starters with the click of a button.
+* We will send you a topic from our collection.
+* If you need more help later in your conversation, or if you don't like the topic we provided, just click the button again for some more ideas.
 
-## Solution ##
-  > Describe how your product elegantly solves the problem.
+## Here's a quote from our founder:
+* "I am a pretty quiet person who always struggles to get conversations going.  Now I no longer have to worry about coming up with conversation topics myself." ~Alex Simrell
 
-## Quote from You ##
-  > A quote from a spokesperson in your company.
+## How To Get Started
+* Simply visit our website at conversationstarters.com and click the help button.
+* We will send you a topic from our large collection of carefully selected conversations that we're sure you'll love.
+* Repeat as needed
 
-## How to Get Started ##
-  > Describe how easy it is to get started.
+## Here's a quote from one of our customers:
+* "Thanks to conversationstarters.com I can now talk about other things besides apples." ~Johnny Appleseed
 
-## Customer Quote ##
-  > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
-
-## Closing and Call to Action ##
-  > Wrap it up and give pointers where the reader should go next.
+## Don't let your conversations get awkward anymore! 
+### Start using conversationstarters.com today!
