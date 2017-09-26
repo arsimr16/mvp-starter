@@ -17,24 +17,10 @@ class App extends React.Component {
     this.setState({answer: newAnswer});
   }
 
-  // componentDidMount() {
-  //   $.ajax({
-  //     url: '/items', 
-  //     success: (data) => {
-  //       this.setState({
-  //         items: data
-  //       })
-  //     },
-  //     error: (err) => {
-  //       console.log('err', err);
-  //     }
-  //   });
-  // }
-
   render() {
     return (
       <div>
-        <h1>Welcome to ConversationStarters.com!</h1>
+        <h1>Welcome to SaySomething.com!</h1>
         <h3>What can we help you with today?</h3>
         <Topic url='/convstarts' updateAnswer={this.updateAnswer}>
           I need a conversation starter!

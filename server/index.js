@@ -12,7 +12,6 @@ app.get('/convstarts', function (req, res) {
     if(err) {
       res.sendStatus(500);
     } else {
-    	console.log('successful GET request to "/convstarts"')
       res.json(data);
     }
   });
@@ -23,7 +22,6 @@ app.get('/jokes', function (req, res) {
     if(err) {
       res.sendStatus(500);
     } else {
-    	console.log('successful GET request to "/jokes"')
       res.json(data);
     }
   });
@@ -34,7 +32,6 @@ app.get('/quotes', function (req, res) {
     if(err) {
       res.sendStatus(500);
     } else {
-    	console.log('successful GET request to "/quotes"')
       res.json(data);
     }
   });
@@ -45,7 +42,6 @@ app.get('/pickups', function (req, res) {
     if(err) {
       res.sendStatus(500);
     } else {
-    	console.log('successful GET request to "/pickups"')
       res.json(data);
     }
   });
