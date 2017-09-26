@@ -31,8 +31,17 @@ class App extends React.Component {
       <div>
         <h1>Welcome to ConversationStarters.com!</h1>
         <h3>What can we help you with today?</h3>
-        <Topic url='/convstart'>
+        <Topic url='/convstarts'>
           I need a conversation starter!
+        </Topic>
+        <Topic url='/jokes'>
+          I need a funny joke!
+        </Topic>
+        <Topic url='/quotes'>
+          I need an inspirational quote!
+        </Topic>
+        <Topic url='/pickups'>
+          I need a good pickup line!
         </Topic>
         <Result/>
       </div>
