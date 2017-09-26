@@ -8,13 +8,13 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = { 
-      answer: 'Click one of the help buttons!'
+      answer: <p>Click one of the help buttons!</p>
     };
     this.updateAnswer = this.updateAnswer.bind(this);
   }
 
   updateAnswer(newAnswer) {
-    this.setState({answer: newAnswer});
+    this.setState({answer: <p>{newAnswer}</p>});
   }
 
   render() {

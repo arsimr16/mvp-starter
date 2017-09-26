@@ -1,0 +1,33 @@
+button {
+	background-color: #FBD1A2;
+  color: #CE6D35;
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: #CE6D35;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+body {
+	background-color: #DCF2EB;
+}
+
+h1 {
+	color: #1D4E89;
+	font-size: 40px;
+}
+
+h3 {
+	color: #00B2CA;
+	font-size: 30px;
+}
+
+p {
+	font-size: 25px;
+	font-weight: 500;
+	display: inline-block;
+	color: #1D4E89;
+}

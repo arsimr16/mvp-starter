@@ -24,8 +24,8 @@ class Topic extends React.Component {
 	render() {
 		return (
 			<div>
-			  <p>{this.props.children}</p>
         <button type="button" onClick={this.getAnswer}>Help!</button>
+			  <p>{this.props.children}</p>
       </div>
 		)
 	}
