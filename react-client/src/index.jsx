@@ -8,7 +8,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = { 
-      answer: 'Click the help button for a conversation starter!'
+      answer: 'Click one of the help buttons!'
     }
   }
 
@@ -43,7 +43,8 @@ class App extends React.Component {
         <Topic url='/pickups'>
           I need a good pickup line!
         </Topic>
-        <Result/>
+        <h3>Answer:</h3>
+        <Result answer={this.state.answer}/>
       </div>
     )
   }
