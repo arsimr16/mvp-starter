@@ -9,7 +9,12 @@ class App extends React.Component {
     super(props);
     this.state = { 
       answer: 'Click one of the help buttons!'
-    }
+    };
+    this.updateAnswer = this.updateAnswer.bind(this);
+  }
+
+  updateAnswer(newAnswer) {
+    this.setState({answer: newAnswer});
   }
 
   // componentDidMount() {
@@ -26,21 +31,21 @@ class App extends React.Component {
   //   });
   // }
 
-  render () {
+  render() {
     return (
       <div>
         <h1>Welcome to ConversationStarters.com!</h1>
         <h3>What can we help you with today?</h3>
-        <Topic url='/convstarts'>
+        <Topic url='/convstarts' updateAnswer={this.updateAnswer}>
           I need a conversation starter!
         </Topic>
-        <Topic url='/jokes'>
+        <Topic url='/jokes' updateAnswer={this.updateAnswer}>
           I need a funny joke!
         </Topic>
-        <Topic url='/quotes'>
+        <Topic url='/quotes' updateAnswer={this.updateAnswer}>
           I need an inspirational quote!
         </Topic>
-        <Topic url='/pickups'>
+        <Topic url='/pickups' updateAnswer={this.updateAnswer}>
           I need a good pickup line!
         </Topic>
         <h3>Answer:</h3>

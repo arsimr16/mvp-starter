@@ -77,44 +77,48 @@ pickupsArr.forEach((pickup, i) => {
 
 // invokes a callback on a randomly chosen item from a the Convstarts table
 var selectRandomStarter = function(callback) {
-  Convstarts.find({id: Math.floor(Math.random() * 10)}, function(err, items) {
+  randomId = Math.floor(Math.random() * 10);
+  Convstarts.find({id: randomId}, function(err, items) {
     if(err) {
       callback(err, null);
     } else {
-      callback(null, items);
+      callback(null, items[0].description);
     }
   });
 };
 
 // invokes a callback on a randomly chosen item from a the Jokes table
 var selectRandomJoke = function(callback) {
-  Jokes.find({id: Math.floor(Math.random() * 10)}, function(err, items) {
+  randomId = Math.floor(Math.random() * 10);
+  Jokes.find({id: randomId}, function(err, items) {
     if(err) {
       callback(err, null);
     } else {
-      callback(null, items);
+      callback(null, items[0].description);
     }
   });
 };
 
 // invokes a callback on a randomly chosen item from a the Jokes table
 var selectRandomQuote = function(callback) {
-  Quotes.find({id: Math.floor(Math.random() * 10)}, function(err, items) {
+  randomId = Math.floor(Math.random() * 10);
+  Quotes.find({id: randomId}, function(err, items) {
     if(err) {
       callback(err, null);
     } else {
-      callback(null, items);
+      callback(null, items[0].description);
     }
   });
 };
 
 // invokes a callback on a randomly chosen item from a the Jokes table
 var selectRandomPickup = function(callback) {
-  Pickups.find({id: Math.floor(Math.random() * 10)}, function(err, items) {
+  randomId = Math.floor(Math.random() * 10);
+  Pickups.find({id: randomId}, function(err, items) {
     if(err) {
       callback(err, null);
     } else {
-      callback(null, items);
+      callback(null, items[0].description);
     }
   });
 };

@@ -13,9 +13,9 @@ class Topic extends React.Component {
 			method: 'GET',
 			contentType: 'application/json',
 			success: (data) => {
-				this.setState({
-					answer: data
-				});
+				console.log('data', data);
+				this.props.updateAnswer(data);
+				this.setState({answer: data});
 				console.log('successful GET request');
 			},
 			error: (err) => {

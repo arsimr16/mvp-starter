@@ -1,6 +1,6 @@
 var express = require('express');
 var bodyParser = require('body-parser');
-var topics = require('../database-mongo');
+var dbHelpers = require('../database-mongo');
 
 var app = express();
 
@@ -8,7 +8,7 @@ app.use(express.static(__dirname + '/../react-client/dist'));
 app.use(bodyParser.json());
 
 app.get('/convstarts', function (req, res) {
-  topics.selectRandom(function(err, data) {
+  dbHelpers.selectRandomStarter(function(err, data) {
     if(err) {
       res.sendStatus(500);
     } else {
@@ -17,6 +17,39 @@ app.get('/convstarts', function (req, res) {
     }
   });
 }); 
+
+app.get('/jokes', function (req, res) {
+  dbHelpers.selectRandomJoke(function(err, data) {
+    if(err) {
+      res.sendStatus(500);
+    } else {
+    	console.log('successful GET request to "/jokes"')
+      res.json(data);
+    }
+  });
+});
+
+app.get('/quotes', function (req, res) {
+  dbHelpers.selectRandomQuote(function(err, data) {
+    if(err) {
+      res.sendStatus(500);
+    } else {
+    	console.log('successful GET request to "/quotes"')
+      res.json(data);
+    }
+  });
+});
+
+app.get('/pickups', function (req, res) {
+  dbHelpers.selectRandomPickup(function(err, data) {
+    if(err) {
+      res.sendStatus(500);
+    } else {
+    	console.log('successful GET request to "/pickups"')
+      res.json(data);
+    }
+  });
+});
 
 app.listen(3000, function() {
   console.log('listening on port 3000!');
