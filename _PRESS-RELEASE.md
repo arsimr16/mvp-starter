@@ -38,7 +38,7 @@ Once the project moves into development, the press release can be used as a touc
 * "I am a pretty quiet person who always struggles to get conversations going.  Now I no longer have to worry about coming up with conversation topics myself." ~Alex Simrell
 
 ## How To Get Started
-* Simply visit our website at conversationstarters.com and click one of the help buttons.
+* Simply visit our website at SaySomething.com and click one of the help buttons.
 * We will send you a response from our large collection of carefully selected conversations, jokes, quotes, and pickup lines that we're sure you'll love.
 * Repeat as needed.
 
@@ -46,4 +46,4 @@ Once the project moves into development, the press release can be used as a touc
 * "Thanks to SaySomething.com I can now talk about other things besides apples." ~Johnny Appleseed
 
 ## Don't let your conversations get awkward anymore!  Never run out of things to say with SaySomething.com! 
-### Start using conversationstarters.com today!
+### Start using SaySomething.com today!
