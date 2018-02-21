@@ -3,6 +3,8 @@ This is a project I completed as a student at [hackreactor](http://hackreactor.c
 # SaySomething.com
 ### A helpful web app for when things get awkward.
 
+![SaySomething Screenshot](./SaySomething.png)
+
 ## Overview
 * Whether you are trying to keep the conversation going on a date, or just trying to entertain yourself on a long roadtrip, long periods of silence can be awkward.  Sometimes uncomfortable topics come up and you need a way to change the subject quickly.  On SaySomething.com you can easily generate random conversation starters with the click of a button.  Now you can also request a jokes, quotes, and pickup lines too!
 
